@@ -6,11 +6,12 @@ environment:
     secure: iDcAJCYgJK4tffyzEHbMVR8DatJcIN8eY0h29p9JQkl43TcEcm6Z6JLOBpGDk1MJ
 
   matrix:
-  - nodejs_version: "0.10"
-  - nodejs_version: "0.12"
-  - nodejs_version: "4"
-  - nodejs_version: "5"
-  - nodejs_version: "6"
+#  - nodejs_version: "0.10"
+#  - nodejs_version: "0.12"
+#  - nodejs_version: "4"
+#  - nodejs_version: "5"
+#  - nodejs_version: "6"
+  - nodejs_version: "6.3.0"
 
 platform:
   - x86
