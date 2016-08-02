@@ -1,16 +1,16 @@
 # Node Serialport
 
 [![npm](https://img.shields.io/npm/dm/serialport.svg?maxAge=2592000)](http://npmjs.com/package/serialport)
-[![Gitter chat](https://badges.gitter.im/EmergingTechnologyAdvisors/node-serialport.svg)](https://gitter.im/EmergingTechnologyAdvisors/node-serialport)
-[![Dependency Status](https://david-dm.org/EmergingTechnologyAdvisors/node-serialport.svg)](https://david-dm.org/EmergingTechnologyAdvisors/node-serialport)
-[![Dependency Status](https://dependencyci.com/github/EmergingTechnologyAdvisors/node-serialport/badge)](https://dependencyci.com/github/EmergingTechnologyAdvisors/node-serialport)
-[![Coverage Status](https://coveralls.io/repos/github/EmergingTechnologyAdvisors/node-serialport/badge.svg?branch=master)](https://coveralls.io/github/EmergingTechnologyAdvisors/node-serialport?branch=master)
-[![Build Status](https://travis-ci.org/EmergingTechnologyAdvisors/node-serialport.svg?branch=master)](https://travis-ci.org/EmergingTechnologyAdvisors/node-serialport)
+[![Gitter chat](https://badges.gitter.im/paulolc/node-serialport.svg)](https://gitter.im/paulolc/node-serialport)
+[![Dependency Status](https://david-dm.org/paulolc/node-serialport.svg)](https://david-dm.org/paulolc/node-serialport)
+[![Dependency Status](https://dependencyci.com/github/paulolc/node-serialport/badge)](https://dependencyci.com/github/paulolc/node-serialport)
+[![Coverage Status](https://coveralls.io/repos/github/paulolc/node-serialport/badge.svg?branch=master)](https://coveralls.io/github/paulolc/node-serialport?branch=master)
+[![Build Status](https://travis-ci.org/paulolc/node-serialport.svg?branch=master)](https://travis-ci.org/paulolc/node-serialport)
 [![Build status](https://ci.appveyor.com/api/projects/status/u6xe3iao2crd7akn/branch/master?svg=true)](https://ci.appveyor.com/project/j5js/node-serialport/branch/master)
 
-For support you can open a [github issue](https://github.com/EmergingTechnologyAdvisors/node-serialport/issues/new), for discussions, designs, and clarifications, we recommend you join our [Gitter Chat room](https://gitter.im/EmergingTechnologyAdvisors/node-serialport). We have two related projects [Browser Serialport](https://github.com/garrows/browser-serialport) "just like Node Serialport but for browser apps", and [Serialport Test Piliot](https://github.com/j5js/serialport-test-pilot) which helps us test serialport.
+For support you can open a [github issue](https://github.com/paulolc/node-serialport/issues/new), for discussions, designs, and clarifications, we recommend you join our [Gitter Chat room](https://gitter.im/paulolc/node-serialport). We have two related projects [Browser Serialport](https://github.com/garrows/browser-serialport) "just like Node Serialport but for browser apps", and [Serialport Test Piliot](https://github.com/j5js/serialport-test-pilot) which helps us test serialport.
 
-If you'd like to contribute please take a look at [contribution guide](CONTRIBUTING.md) and [code of conduct](CODE_OF_CONDUCT.md). You also might want to see the [road map](https://github.com/EmergingTechnologyAdvisors/node-serialport/issues/746). We also have issues tagged ["good first PR"](https://github.com/EmergingTechnologyAdvisors/node-serialport/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+pr%22) if you'd like to start somewhere specific. We'll do our best to support you until your PR is merged.
+If you'd like to contribute please take a look at [contribution guide](CONTRIBUTING.md) and [code of conduct](CODE_OF_CONDUCT.md). You also might want to see the [road map](https://github.com/paulolc/node-serialport/issues/746). We also have issues tagged ["good first PR"](https://github.com/paulolc/node-serialport/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+pr%22) if you'd like to start somewhere specific. We'll do our best to support you until your PR is merged.
 
 ***
 
@@ -18,10 +18,10 @@ If you'd like to contribute please take a look at [contribution guide](CONTRIBUT
 
 You're reading the README for the master branch of serialport. You probably want to be looking at the README of our latest release. See our [change log](changelog.md) for what's new and our [upgrade guide](UPGRADE_GUIDE.md) for a walk through on what to look out for between major versions.
 
- - [`serialport@4.0.1` docs are here](https://github.com/EmergingTechnologyAdvisors/node-serialport/blob/4.0.1/README.md) it is the latest `4.x` releases.
- - [`serialport@3.1.2` docs are here](https://github.com/EmergingTechnologyAdvisors/node-serialport/blob/3.1.2/README.md) it is the latest `3.x` releases.
- - [`serialport@2.1.2` docs are here](https://github.com/EmergingTechnologyAdvisors/node-serialport/blob/2.1.2/README.md) it was the last `2.x` release
- - [`serialport@1.7.4` docs are here](https://github.com/EmergingTechnologyAdvisors/node-serialport/blob/v1.7.4/README.md) it was the last `1.x` release
+ - [`serialport@4.0.888` docs are here](https://github.com/paulolc/node-serialport/blob/4.0.888/README.md) it is the latest `4.x` releases.
+ - [`serialport@3.1.2` docs are here](https://github.com/paulolc/node-serialport/blob/3.1.2/README.md) it is the latest `3.x` releases.
+ - [`serialport@2.1.2` docs are here](https://github.com/paulolc/node-serialport/blob/2.1.2/README.md) it was the last `2.x` release
+ - [`serialport@1.7.4` docs are here](https://github.com/paulolc/node-serialport/blob/v1.7.4/README.md) it was the last `1.x` release
 
 ***
 
@@ -94,7 +94,7 @@ For getting started with node-serialport, we recommend you begin with the follow
 | Windows² / x64  |  ☑  |  ☑  |  ☑  |  ☑  |  ☑  |
 | OSX³ / x64      |  ☑  |  ☑  |  ☑  |  ☑  |  ☑  |
 
-¹ ARM, MIPSel and PPC64¹ platforms are known to work but are not currently part of our test or build matrix. [#846](https://github.com/EmergingTechnologyAdvisors/node-serialport/issues/846) ARM v4 and v5 was dropped from NodeJS after Node v0.10.
+¹ ARM, MIPSel and PPC64¹ platforms are known to work but are not currently part of our test or build matrix. [#846](https://github.com/paulolc/node-serialport/issues/846) ARM v4 and v5 was dropped from NodeJS after Node v0.10.
 
 ² Windows 7, 8, 10, and 10 IoT are supported but only Windows Server 2012 R2 is tested by our CI.
 
